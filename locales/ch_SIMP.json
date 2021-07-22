@@ -2,16 +2,16 @@
   "ui": {
     "layout": {
       "title": {
-        "label": "选择页面",
-        "js_page": "JS游乐场",
+        "label": "选择界面",
+        "js_page": "JS 编辑器",
         "html_page": "HTML 编辑器",
         "script_tags": "脚本标签管理器",
-        "node_modules": "节点模块",
-        "js_schedule": "JS Schedule",
-        "markdown_editor": "降价编辑器",
-        "resolution_list": "分辨率列表计算器",
+        "node_modules": "Node 模块",
+        "js_schedule": "JS 定时任务",
+        "markdown_editor": "Markdown 编辑器",
+        "resolution_list": "分辨率计算器",
         "color_picker": "颜色选择器",
-        "allowed_domain_name_list": "Allowed Domain Name List",
+        "allowed_domain_name_list": "信任域(名)列表",
         "setting": "设置"
       },
       "leftDrawer": {
@@ -24,64 +24,64 @@
           "reload_menu": "重新加载菜单"
         },
         "js_page": {
-          "run": "执行",
-          "prettier_code": "更漂亮的代码",
-          "js_type": "JS型",
-          "new_js": "新JS"
+          "run": "运行",
+          "prettier_code": "格式化代码",
+          "js_type": "JS 类型",
+          "new_js": "新建 JS 脚本"
         },
         "script_tags": {
           "read_source_path": "读取源路径",
           "remove_all": "删除所有脚本标签",
           "write_into_html": "写入 HTML 文件",
-          "only_same_directory": "只有同一个目录"
+          "only_same_directory": "仅相同目录"
         },
         "html_page": {
-          "prettier_html": "更漂亮的 HTML",
+          "prettier_html": "格式化 HTML",
           "new_html": "新建 HTML 页面"
         },
         "markdown_editor": {
-          "prettier_md": "更漂亮的降价",
+          "prettier_md": "格式化 Markdown",
           "save_as_html": "另存为 HTML",
-          "new_md": "新降价"
+          "new_md": "新建 md 文档"
         },
         "common": {
-          "node_integration_on": "节点集成已开启",
+          "node_integration_on": "Node 集成已开启",
           "save": "保存",
           "save_as": "另存为",
           "open": "打开",
           "file_path": "文件路径",
           "read_html_path": "读取 HTML 路径",
-          "webpage_url": "网页网址",
+          "webpage_url": "网页地址",
           "load_webpage": "加载网页",
           "show_webpage": "显示网页",
-          "reload": "重新加载网页",
-          "reload_all": "重新加载整个应用程序",
-          "dev_tools": "打开开发工具",
-          "node_integration": "节点集成"
+          "reload": "刷新网页",
+          "reload_all": "全部重新加载",
+          "dev_tools": "开发者工具",
+          "node_integration": "Node 集成"
         },
         "caption": {
-          "run": "快捷键: ctrl + r\r\n执行 Javascript 代码.",
-          "prettier": "快捷键: ctrl + p\r\n在编辑器中格式化文本.\r\n格式化 HTML、Javascript 代码.",
+          "run": "快捷键: ctrl + r\r\n运行 Javascript 代码.",
+          "prettier": "快捷键: ctrl + p\r\n在编辑器中格式化内容.\r\n格式化 HTML、Javascript 代码.",
           "js_type": "选择 Javascript 类型.\r\n对于 text/javascript 和模块，Javascript 在网页上运行.\r\n对于 Node VM，Javascript 在 Node VM 中运行.",
           "save":"快捷键: ctrl + s\r\n",
           "save_as": "快捷键: ctrl + shift + s",
           "open": "快捷键: ctrl + o",
           "new": "快捷键: ctrl + n",
           "save_as_html": "快捷键: ctrl + shift + h",
-          "read_html_path": "读取 HTML 文件名以将其作为网页加载.",
-          "load_webpage": "从 url 加载网页.",
+          "read_html_path": "从文件路径读取 HTML 文件",
+          "load_webpage": "加载网页.",
           "show_webpage": "快捷键: ctrl + w",
           "dev_tools": "快捷键: F12",
-          "node_integration": "使用节点集成与任何不受信任的网页时要小心.\r\n网页所有者可以访问您的系统.",
+          "node_integration": "使用 Node 集成或任何不受信任的网页时要小心.\r\n网页所有者可以访问您的系统.",
           "reload_webpage": "快捷键: F5",
           "reload_app": "重新加载整个应用程序.\r\n仅在 JS 页面不工作或停止时使用它.",
           "console": "快捷键: ctrl + j\r\n打开控制台窗口."
         }
       },
       "footer": {
-        "dark_mode": "黑暗模式",
-        "light_mode": "灯光模式",
-        "name": "Geargom"
+        "dark_mode": "夜间模式",
+        "light_mode": "日间模式",
+        "name": "By Geargom"
       }
     },
     "page": {
@@ -89,30 +89,30 @@
         "accept": "开始"
       },
       "resolution_list": {
-        "ratio_sample": "比率样本",
+        "ratio_sample": "屏幕宽高比",
         "width_ratio": "宽度比",
-        "height_ratio": "身高比",
-        "max_height": "分辨率列表的最大高度",
-        "resolution_list": "解析列表"
+        "height_ratio": "高度比",
+        "max_height": "分辨率高度最大值",
+        "resolution_list": "分辨率列表"
       },
       "script_tags": {
-        "autocomplete": "自动完成脚本类型"
+        "autocomplete": "自动识别/补全脚本类型"
       },
       "setting": {
-        "language": "语",
-        "home": "默认页面"
+        "language": "语言",
+        "home": "默认界面"
       }
     },
     "warn": {
-      "not_supported": "暂时不支持.等待更新或发布."
+      "not_supported": "暂不支持.请等待后续更新."
     },
-    "language": "简体字"
+    "language": "简体中文"
   },
   "system": {
     "node_integration_message": {
-      "title":"节点集成警告",
+      "title":"Node 集成开启警告",
       "message": "请不要加载不受信任的网页.\n网页所有者可以访问您的系统.\n为了您的安全，该网页将设置为我们的默认页面.\n您负责加载网页.",
-      "ok": "OK"
+      "ok": "确认"
     }
   }
 }
